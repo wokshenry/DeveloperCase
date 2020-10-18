@@ -1,0 +1,82 @@
+﻿@using DeveloperCase.Models
+@model SearchPanel
+@{
+    ViewData["Title"] = "DashBoard";
+}
+<ol class="breadcrumb" style="margin-top:30px;">
+    <li class="breadcrumb-item">
+        <a href="@Url.Action("Index","Home")">Dashboard</a>
+    </li>
+    @*<li class="breadcrumb-item active">DashBoards</li>*@
+</ol>
+<form method="post" asp-controller="Home" asp-action="Index">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <div class="col-md-4">
+                <label asp-for="StartDate"></label>
+            </div>
+
+            <div class="col-md-12">
+                <ejs-datepicker id="StartDate" ejs-for="StartDate"  max="DateTime.Now" format="@ViewBag.dateformat" placeholder="Choose start Date"></ejs-datepicker>
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group col-md-3">
+            <div class="col-md-4">
+                <label asp-for="EndDate"></label>
+            </div>
+
+            <div class="col-md-12">
+                <ejs-datepicker id="EndDate" width="100%" ejs-for="EndDate"  max="DateTime.Now" format="@ViewBag.dateformat" placeholder="Choose End Date" change="DataChange"></ejs-datepicker>
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group col-md-2">
+            <button type="submit" style="margin-top:20px;" class="btn btn-primary btn-block">Search</button>
+        </div>
+    </div>
+    <label style="text-align:center; color:red;">@ViewBag.SearchRange</label>
+    <div class="form-row">
+        <div class="col col-md-2">
+            <h2>Total Profits</h2>
+            <label>@ViewBag.TotalProfit</label>
+        </div>
+        <div class="col col-md-10">
+            <ejs-chart id="lineContainer" title="5 Most Profitable Items Types">
+                <e-chart-tooltipsettings enable="true">
+                </e-chart-tooltipsettings>
+                <e-chart-primaryxaxis valueType="Category" interval=1>
+                    <e-majorgridlines width="0"></e-majorgridlines>
+                </e-chart-primaryxaxis>
+                <e-chart-primaryyaxis>
+                    <e-majorgridlines width="1"></e-majorgridlines>
+                    <e-majorticklines width="0"></e-majorticklines>
+                    <e-linestyle width="1"></e-linestyle>
+                    <e-labelstyle color="black"></e-labelstyle>
+                </e-chart-primaryyaxis>
+                <e-chart-chartarea>
+                    <e-chartarea-border width="0"></e-chartarea-border>
+                </e-chart-chartarea>
+                <e-series-collection>
+                    <e-series dataSource="ViewBag.WithMostProfits" xName='ItemType' yName='TotalProfit' name='Item Types' width=1 type="@Syncfusion.EJ2.Charts.ChartSeriesType.Column">
+                        <e-series-marker>
+                            <e-series-datalabel visible="true" position="Top">
+                                <e-font fontWeight="600" color="#ffffff"></e-font>
+                            </e-series-datalabel>
+                        </e-series-marker>
+                    </e-series>
+                </e-series-collection>
+            </ejs-chart>
+        </div>
+    </div>
+
+
+
+
+</form>
+<script>
+    function DataChange(args) {
+        //alert(args.value);
+    }
+</script>

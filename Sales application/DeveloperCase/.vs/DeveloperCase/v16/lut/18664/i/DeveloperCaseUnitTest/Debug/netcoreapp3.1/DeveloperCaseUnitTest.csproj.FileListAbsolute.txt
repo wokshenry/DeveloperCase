@@ -1,0 +1,14 @@
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\i\DeveloperCaseUnitTest\Debug\netcoreapp3.1\DeveloperCaseUnitTest.csprojAssemblyReference.cache
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\i\DeveloperCaseUnitTest\Debug\netcoreapp3.1\DeveloperCaseUnitTest.AssemblyInfoInputs.cache
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\i\DeveloperCaseUnitTest\Debug\netcoreapp3.1\DeveloperCaseUnitTest.AssemblyInfo.cs
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\b\DeveloperCaseUnitTest\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\b\DeveloperCaseUnitTest\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\b\DeveloperCaseUnitTest\Debug\netcoreapp3.1\nunit.engine.dll
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\b\DeveloperCaseUnitTest\Debug\netcoreapp3.1\nunit.engine.api.dll
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\b\DeveloperCaseUnitTest\Debug\netcoreapp3.1\DeveloperCaseUnitTest.deps.json
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\b\DeveloperCaseUnitTest\Debug\netcoreapp3.1\DeveloperCaseUnitTest.runtimeconfig.json
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\b\DeveloperCaseUnitTest\Debug\netcoreapp3.1\DeveloperCaseUnitTest.runtimeconfig.dev.json
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\b\DeveloperCaseUnitTest\Debug\netcoreapp3.1\DeveloperCaseUnitTest.dll
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\i\DeveloperCaseUnitTest\Debug\netcoreapp3.1\DeveloperCaseUnitTest.csproj.CopyComplete
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\i\DeveloperCaseUnitTest\Debug\netcoreapp3.1\DeveloperCaseUnitTest.dll
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\i\DeveloperCaseUnitTest\Debug\netcoreapp3.1\DeveloperCaseUnitTest.genruntimeconfig.cache
