@@ -1,0 +1,1 @@
+[12:35:36.661 Verbose] - BuildManager - C:\Program Files\dotnet\sdk\3.1.300\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets(194,5): error NETSDK1004: Assets file 'D:\Core Projects\DeveloperCaseTests1\obj\project.assets.json' not found. Run a NuGet package restore to generate this file.

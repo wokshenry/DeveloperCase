@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewData["Title"] = "Sales";
+}
+
+    <ol class="breadcrumb" style="margin-top:30px;">
+        <li class="breadcrumb-item">
+            <a href="/Home/Index">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item active">Sales Records</li>
+    </ol>
+
+    <ejs-grid id="Grid"
+              height="600" allowPaging="true" allowResizing="true" allowTextWrap="true"
+              allowSorting="true" allowReordering="true" allowGrouping="false"
+              toolbar="@(new List<string>() { "Search", "ExcelExport" , "CsvExport" ,"PdfExport"})"
+              allowFiltering="true" allowSelection="true" allowExcelExport="true" gridLines="Both"
+              allowPdfExport="true" enableAltRow="true" toolbarClick="toolbarClick" load="OnDataLoad">
+        <e-data-manager url="/Home/SalesDataSource" adaptor="UrlAdaptor"></e-data-manager>
+        <e-grid-pagesettings pageSize="100" />
+        <e-grid-filterSettings type="Excel"></e-grid-filterSettings>
+        <e-grid-editSettings allowAdding="false" allowDeleting="false" allowEditing="false" mode="Normal"></e-grid-editSettings>
+        <e-grid-selectionsettings type="Single"></e-grid-selectionsettings>
+        <e-grid-columns>
+            <e-grid-column type="checkbox" width="50"></e-grid-column>
+            <e-grid-column field="OrderId" headerText="Id" visible="false" isPrimaryKey="true" isIdentity="true"></e-grid-column>
+            <e-grid-column field="ItemType" headerText="Item Type" allowEditing="false"></e-grid-column>
+            <e-grid-column field="OrderDate" headerText="Order Date" width="150" format="dMy" allowEditing="false"></e-grid-column>
+            <e-grid-column field="OrderPriority" headerText="Order Priority" allowEditing="false"></e-grid-column>
+            <e-grid-column field="UnitSold" headerText="Unit Sold" allowEditing="false"></e-grid-column>
+            <e-grid-column field="UnitPrice" headerText="Unit Price" allowEditing="false"></e-grid-column>
+            <e-grid-column field="TotalCost" headerText="Total Cost" allowEditing="false"></e-grid-column>
+            <e-grid-column field="TotalRevenue" headerText="Total Revenue" allowEditing="false"></e-grid-column>
+
+
+        </e-grid-columns>
+    </ejs-grid>
+<script>
+    function OnDataLoad(args) {
+                this.columns[3].format = { type: 'date', format: 'dd/MM/yyyy' };
+    }
+    function toolbarClick(args) {
+                if (args.item.id === this.element.id + '_pdfexport') {
+                    this.pdfExport();
+                }
+                if (args.item.id === this.element.id + '_csvexport') {
+                    this.csvExport();
+                }
+                if (args.item.id === this.element.id + '_excelexport') {
+                    this.excelExport();
+                }
+            }
+</script>

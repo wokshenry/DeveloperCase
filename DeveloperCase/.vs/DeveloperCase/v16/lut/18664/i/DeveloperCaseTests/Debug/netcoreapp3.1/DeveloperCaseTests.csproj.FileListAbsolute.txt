@@ -1,0 +1,11 @@
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\i\DeveloperCaseTests\Debug\netcoreapp3.1\DeveloperCaseTests.AssemblyInfoInputs.cache
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\i\DeveloperCaseTests\Debug\netcoreapp3.1\DeveloperCaseTests.AssemblyInfo.cs
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\i\DeveloperCaseTests\Debug\netcoreapp3.1\DeveloperCaseTests.csprojAssemblyReference.cache
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\b\DeveloperCaseTests\Debug\netcoreapp3.1\DeveloperCase.Views.dll
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\b\DeveloperCaseTests\Debug\netcoreapp3.1\DeveloperCase.Views.pdb
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\b\DeveloperCaseTests\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\b\DeveloperCaseTests\Debug\netcoreapp3.1\appsettings.json
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\b\DeveloperCaseTests\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\b\DeveloperCaseTests\Debug\netcoreapp3.1\DeveloperCase.exe
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\i\DeveloperCaseTests\Debug\netcoreapp3.1\DeveloperCaseTests.csproj.CopyComplete
+D:\Core Projects\DeveloperCase\.vs\DeveloperCase\v16\lut\0\i\DeveloperCaseTests\Debug\netcoreapp3.1\DeveloperCaseTests.dll
